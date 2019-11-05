@@ -76,3 +76,50 @@ func sum1(numbers: Int...) -> Int {
 }
 
 print(sum1(numbers: 1, 2, 3))
+
+
+enum Date {
+    case digit(year: Int, month: Int, day: Int)
+    case string(String)
+}
+
+var date = Date.digit(year: 2019, month: 11, day: 5)
+date = .string("2019年11月05日17:27:45")
+
+switch date {
+case .digit(let year, let month, let day):
+    print(year, month, day)
+case let .string(value):
+    print(value)
+}
+
+
+enum Score: String {
+    case perfect = "A"
+    case good = "B"
+    case bad = "C"
+}
+
+let a = Score.perfect
+
+print(a)
+print(a.rawValue)
+print(Score.perfect.rawValue)
+
+var b: Int?
+b = 555
+if let c = b {
+    print(c)
+}
+
+var strs = ["10", "20", "str", "-10", "30"]
+
+var i = 0
+var sum = 0
+while let num = Int(strs[i]), num > 0 {
+    sum += num
+    i += 1
+}
+
+print(sum)
+
