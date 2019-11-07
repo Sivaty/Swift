@@ -121,5 +121,9 @@ while let num = Int(strs[i]), num > 0 {
     i += 1
 }
 
+var num1: Int? = 10
+var num2: Int?? = num1
+
 print(sum)
 
+print(MemoryLayout<Int>.size)
