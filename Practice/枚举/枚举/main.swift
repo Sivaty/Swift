@@ -24,3 +24,20 @@ struct Person {
         self.name = name
     }
 }
+
+class Animal {
+    var name = 0
+    var age = 0
+    var sex = true
+    
+}
+
+var aAnimal = Animal()
+
+var ptr = malloc(16)
+print(malloc_size(ptr))
+print(class_getInstanceSize(Animal.self))
+
+
+
+
