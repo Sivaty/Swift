@@ -43,3 +43,15 @@ func exec(fn: (Int, Int) -> Int) {
 exec { (v1, v2) -> Int in
     v1 + v2
 }
+
+//func getFirstPositive(v1: Int, v2: () -> Int) -> Int {
+//    return v1 > 0 ? v1 : v2()
+//}
+//
+//getFirstPositive(v1: 10, v2: {20})
+
+func getFirstPositive(v1: Int, v2: @autoclosure () -> Int) -> Int {
+    return v1 > 0 ? v1 : v2()
+}
+
+getFirstPositive(v1: 10, v2: 20)
