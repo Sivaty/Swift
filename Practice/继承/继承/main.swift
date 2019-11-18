@@ -29,3 +29,16 @@ class Man: Person {
         self.init()
     }
 }
+
+func test() {
+    var age: Int?
+
+    guard let num = age else {
+        print("num")
+        return
+    }
+    print(num)
+    
+}
+
+test()
