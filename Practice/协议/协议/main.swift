@@ -36,6 +36,10 @@ class Person : CustomStringConvertible {
     var description: String {
         "age is \(age)"
     }
+    
+    func run() {
+        print("run")
+    }
 }
 
 class Student: Person, Livable {
@@ -69,3 +73,8 @@ for season in seasons {
 
 let man = Person.init(age: 10)
 print(man) //age is 10
+
+var stu: Any = 10
+(stu as? Person)?.run()
+
+
