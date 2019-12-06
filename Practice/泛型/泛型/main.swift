@@ -23,3 +23,31 @@ func swapValues<T>(_ n1: inout T, _ n2: inout T) {
 
 swapValues(&n1, &n2)
 print(n1, n2)
+
+class Stack<E> {
+    var elements = [E]()
+    func push(_ element: E) {
+        elements.append(element)
+    }
+    
+    func pop() -> E {
+        elements.removeLast()
+    }
+    
+    func top() -> E {
+        elements.last!
+    }
+    
+    func size() -> Int {
+        elements.count
+    }
+}
+
+var stack = Stack<Int>()
+
+
+protocol Stackable {
+    associatedtype Element
+}
+
+
