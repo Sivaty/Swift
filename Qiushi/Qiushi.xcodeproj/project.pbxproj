@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CBE0E3AA26C808A01B1C70F /* Pods_Qiushi_QiushiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EED19F770CECB53DB28982 /* Pods_Qiushi_QiushiUITests.framework */; };
 		3B53DB08239D0C82009D7C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB07239D0C82009D7C22 /* AppDelegate.swift */; };
 		3B53DB0A239D0C82009D7C22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB09239D0C82009D7C22 /* SceneDelegate.swift */; };
-		3B53DB0C239D0C82009D7C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB0B239D0C82009D7C22 /* ViewController.swift */; };
 		3B53DB0F239D0C82009D7C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B53DB0D239D0C82009D7C22 /* Main.storyboard */; };
 		3B53DB11239D0C84009D7C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B53DB10239D0C84009D7C22 /* Assets.xcassets */; };
 		3B53DB14239D0C84009D7C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B53DB12239D0C84009D7C22 /* LaunchScreen.storyboard */; };
 		3B53DB1F239D0C84009D7C22 /* QiushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB1E239D0C84009D7C22 /* QiushiTests.swift */; };
 		3B53DB2A239D0C84009D7C22 /* QiushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB29239D0C84009D7C22 /* QiushiUITests.swift */; };
+		3B53DB3A239D0F64009D7C22 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB39239D0F64009D7C22 /* TabBarViewController.swift */; };
+		3B53DB3E239D107B009D7C22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB3D239D107B009D7C22 /* HomeViewController.swift */; };
+		3B53DB40239D1085009D7C22 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB3F239D1085009D7C22 /* MyViewController.swift */; };
+		3B53DB42239D235B009D7C22 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB41239D235B009D7C22 /* API.swift */; };
+		3B53DB48239D32F9009D7C22 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB45239D32F9009D7C22 /* Item.swift */; };
+		3B53DB49239D32F9009D7C22 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB46239D32F9009D7C22 /* User.swift */; };
+		3B53DB4A239D32F9009D7C22 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53DB47239D32F9009D7C22 /* Comment.swift */; };
+		44F0558EA611346B6F4C4AD6 /* Pods_QiushiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A515FBF3369488E65FDE33 /* Pods_QiushiTests.framework */; };
+		8D89FE5F7C80FB86FF44DF51 /* Pods_Qiushi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CB18604DF0226439B8E6CD /* Pods_Qiushi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15BD7F4919305F1B7E26E261 /* Pods-Qiushi-QiushiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiushi-QiushiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Qiushi-QiushiUITests/Pods-Qiushi-QiushiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17D4EE1FAA1538AF351840E3 /* Pods-Qiushi-QiushiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiushi-QiushiUITests.release.xcconfig"; path = "Target Support Files/Pods-Qiushi-QiushiUITests/Pods-Qiushi-QiushiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B53DB04239D0C82009D7C22 /* Qiushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qiushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B53DB07239D0C82009D7C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B53DB09239D0C82009D7C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B53DB0B239D0C82009D7C22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B53DB0E239D0C82009D7C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B53DB10239D0C84009D7C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B53DB13239D0C84009D7C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,20 @@
 		3B53DB25239D0C84009D7C22 /* QiushiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiushiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B53DB29239D0C84009D7C22 /* QiushiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiushiUITests.swift; sourceTree = "<group>"; };
 		3B53DB2B239D0C84009D7C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B53DB39239D0F64009D7C22 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3B53DB3D239D107B009D7C22 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3B53DB3F239D1085009D7C22 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		3B53DB41239D235B009D7C22 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3B53DB45239D32F9009D7C22 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3B53DB46239D32F9009D7C22 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B53DB47239D32F9009D7C22 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		46A515FBF3369488E65FDE33 /* Pods_QiushiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiushiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CB18604DF0226439B8E6CD /* Pods_Qiushi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qiushi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714801C0636B797A47ABA94C /* Pods-Qiushi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiushi.release.xcconfig"; path = "Target Support Files/Pods-Qiushi/Pods-Qiushi.release.xcconfig"; sourceTree = "<group>"; };
+		CBC3B448E82B64080927A623 /* Pods-QiushiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiushiTests.debug.xcconfig"; path = "Target Support Files/Pods-QiushiTests/Pods-QiushiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF62B185042D6E344DAB0BC /* Pods-Qiushi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiushi.debug.xcconfig"; path = "Target Support Files/Pods-Qiushi/Pods-Qiushi.debug.xcconfig"; sourceTree = "<group>"; };
+		E21F4D92055AE22593D3E378 /* Pods-QiushiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiushiTests.release.xcconfig"; path = "Target Support Files/Pods-QiushiTests/Pods-QiushiTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8EED19F770CECB53DB28982 /* Pods_Qiushi_QiushiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qiushi_QiushiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D89FE5F7C80FB86FF44DF51 /* Pods_Qiushi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F0558EA611346B6F4C4AD6 /* Pods_QiushiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBE0E3AA26C808A01B1C70F /* Pods_Qiushi_QiushiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,8 @@
 				3B53DB1D239D0C84009D7C22 /* QiushiTests */,
 				3B53DB28239D0C84009D7C22 /* QiushiUITests */,
 				3B53DB05239D0C82009D7C22 /* Products */,
+				6514797AF096CDDC393DDBFD /* Pods */,
+				4B8F557619380F5B5BF636C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +128,10 @@
 		3B53DB06239D0C82009D7C22 /* Qiushi */ = {
 			isa = PBXGroup;
 			children = (
-				3B53DB07239D0C82009D7C22 /* AppDelegate.swift */,
-				3B53DB09239D0C82009D7C22 /* SceneDelegate.swift */,
-				3B53DB0B239D0C82009D7C22 /* ViewController.swift */,
-				3B53DB0D239D0C82009D7C22 /* Main.storyboard */,
-				3B53DB10239D0C84009D7C22 /* Assets.xcassets */,
-				3B53DB12239D0C84009D7C22 /* LaunchScreen.storyboard */,
-				3B53DB15239D0C84009D7C22 /* Info.plist */,
+				3B53DB3B239D105D009D7C22 /* Home */,
+				3B53DB3C239D1063009D7C22 /* My */,
+				3B53DB38239D0F0C009D7C22 /* Root */,
+				3B53DB37239D0ED5009D7C22 /* Resource */,
 			);
 			path = Qiushi;
 			sourceTree = "<group>";
@@ -128,6 +154,70 @@
 			path = QiushiUITests;
 			sourceTree = "<group>";
 		};
+		3B53DB37239D0ED5009D7C22 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B53DB0D239D0C82009D7C22 /* Main.storyboard */,
+				3B53DB10239D0C84009D7C22 /* Assets.xcassets */,
+				3B53DB12239D0C84009D7C22 /* LaunchScreen.storyboard */,
+				3B53DB15239D0C84009D7C22 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3B53DB38239D0F0C009D7C22 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3B53DB07239D0C82009D7C22 /* AppDelegate.swift */,
+				3B53DB09239D0C82009D7C22 /* SceneDelegate.swift */,
+				3B53DB39239D0F64009D7C22 /* TabBarViewController.swift */,
+				3B53DB41239D235B009D7C22 /* API.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3B53DB3B239D105D009D7C22 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3B53DB3D239D107B009D7C22 /* HomeViewController.swift */,
+				3B53DB47239D32F9009D7C22 /* Comment.swift */,
+				3B53DB45239D32F9009D7C22 /* Item.swift */,
+				3B53DB46239D32F9009D7C22 /* User.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3B53DB3C239D1063009D7C22 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				3B53DB3F239D1085009D7C22 /* MyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		4B8F557619380F5B5BF636C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61CB18604DF0226439B8E6CD /* Pods_Qiushi.framework */,
+				F8EED19F770CECB53DB28982 /* Pods_Qiushi_QiushiUITests.framework */,
+				46A515FBF3369488E65FDE33 /* Pods_QiushiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6514797AF096CDDC393DDBFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFF62B185042D6E344DAB0BC /* Pods-Qiushi.debug.xcconfig */,
+				714801C0636B797A47ABA94C /* Pods-Qiushi.release.xcconfig */,
+				15BD7F4919305F1B7E26E261 /* Pods-Qiushi-QiushiUITests.debug.xcconfig */,
+				17D4EE1FAA1538AF351840E3 /* Pods-Qiushi-QiushiUITests.release.xcconfig */,
+				CBC3B448E82B64080927A623 /* Pods-QiushiTests.debug.xcconfig */,
+				E21F4D92055AE22593D3E378 /* Pods-QiushiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B53DB2E239D0C84009D7C22 /* Build configuration list for PBXNativeTarget "Qiushi" */;
 			buildPhases = (
+				94146BEEF07F58E16C21345D /* [CP] Check Pods Manifest.lock */,
 				3B53DB00239D0C82009D7C22 /* Sources */,
 				3B53DB01239D0C82009D7C22 /* Frameworks */,
 				3B53DB02239D0C82009D7C22 /* Resources */,
+				9EEB44C1122D71685D14115C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B53DB31239D0C84009D7C22 /* Build configuration list for PBXNativeTarget "QiushiTests" */;
 			buildPhases = (
+				43C66B27E9A242334A6A08C5 /* [CP] Check Pods Manifest.lock */,
 				3B53DB16239D0C84009D7C22 /* Sources */,
 				3B53DB17239D0C84009D7C22 /* Frameworks */,
 				3B53DB18239D0C84009D7C22 /* Resources */,
@@ -170,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B53DB34239D0C84009D7C22 /* Build configuration list for PBXNativeTarget "QiushiUITests" */;
 			buildPhases = (
+				836A4D9AAAE1777003E16D2A /* [CP] Check Pods Manifest.lock */,
 				3B53DB21239D0C84009D7C22 /* Sources */,
 				3B53DB22239D0C84009D7C22 /* Frameworks */,
 				3B53DB23239D0C84009D7C22 /* Resources */,
+				49A229E214EEBDFCB84D4CA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +349,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43C66B27E9A242334A6A08C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiushiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A229E214EEBDFCB84D4CA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qiushi-QiushiUITests/Pods-Qiushi-QiushiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qiushi-QiushiUITests/Pods-Qiushi-QiushiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qiushi-QiushiUITests/Pods-Qiushi-QiushiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836A4D9AAAE1777003E16D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qiushi-QiushiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94146BEEF07F58E16C21345D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qiushi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEB44C1122D71685D14115C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qiushi/Pods-Qiushi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qiushi/Pods-Qiushi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qiushi/Pods-Qiushi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B53DB00239D0C82009D7C22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B53DB0C239D0C82009D7C22 /* ViewController.swift in Sources */,
 				3B53DB08239D0C82009D7C22 /* AppDelegate.swift in Sources */,
+				3B53DB3A239D0F64009D7C22 /* TabBarViewController.swift in Sources */,
 				3B53DB0A239D0C82009D7C22 /* SceneDelegate.swift in Sources */,
+				3B53DB40239D1085009D7C22 /* MyViewController.swift in Sources */,
+				3B53DB49239D32F9009D7C22 /* User.swift in Sources */,
+				3B53DB48239D32F9009D7C22 /* Item.swift in Sources */,
+				3B53DB42239D235B009D7C22 /* API.swift in Sources */,
+				3B53DB4A239D32F9009D7C22 /* Comment.swift in Sources */,
+				3B53DB3E239D107B009D7C22 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +636,12 @@
 		};
 		3B53DB2F239D0C84009D7C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF62B185042D6E344DAB0BC /* Pods-Qiushi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H7JFCV9B8;
-				INFOPLIST_FILE = Qiushi/Info.plist;
+				INFOPLIST_FILE = Qiushi/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +655,12 @@
 		};
 		3B53DB30239D0C84009D7C22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714801C0636B797A47ABA94C /* Pods-Qiushi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H7JFCV9B8;
-				INFOPLIST_FILE = Qiushi/Info.plist;
+				INFOPLIST_FILE = Qiushi/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +674,7 @@
 		};
 		3B53DB32239D0C84009D7C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC3B448E82B64080927A623 /* Pods-QiushiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +697,7 @@
 		};
 		3B53DB33239D0C84009D7C22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21F4D92055AE22593D3E378 /* Pods-QiushiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +720,7 @@
 		};
 		3B53DB35239D0C84009D7C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BD7F4919305F1B7E26E261 /* Pods-Qiushi-QiushiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +741,7 @@
 		};
 		3B53DB36239D0C84009D7C22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D4EE1FAA1538AF351840E3 /* Pods-Qiushi-QiushiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
