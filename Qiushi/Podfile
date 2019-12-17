@@ -12,6 +12,8 @@ target 'Qiushi' do
   pod 'Kingfisher'
   pod 'MJRefresh'
   pod 'KakaJSON'
+  pod "Texture"
+  pod 'YYText'
 
   target 'QiushiTests' do
     inherit! :search_paths
