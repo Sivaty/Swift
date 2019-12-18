@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - CocoaDebug (1.0.1)
   - KakaJSON (1.1.1)
   - Kingfisher (5.10.1):
     - Kingfisher/Core (= 5.10.1)
@@ -45,6 +46,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - CocoaDebug
   - KakaJSON
   - Kingfisher
   - MJRefresh
@@ -55,6 +57,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - CocoaDebug
     - KakaJSON
     - Kingfisher
     - MJRefresh
@@ -67,6 +70,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CocoaDebug: d6bd1642ae6f3acbd8e152f2b0929355dff97bd3
   KakaJSON: 18a9fbd9e8381e52751eb6da8536bda8d2944fa1
   Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
   MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
@@ -77,6 +81,6 @@ SPEC CHECKSUMS:
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: a0eb7b3de5ad8d181c27d625596978b3adea7414
+PODFILE CHECKSUM: 199676c318878f54b0a8d5230aee3f1deab38b43
 
 COCOAPODS: 1.8.4
