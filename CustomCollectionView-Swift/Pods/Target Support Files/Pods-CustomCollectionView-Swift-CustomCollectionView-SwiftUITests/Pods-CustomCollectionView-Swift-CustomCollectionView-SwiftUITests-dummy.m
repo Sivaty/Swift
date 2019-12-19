@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CustomCollectionView_Swift_CustomCollectionView_SwiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_CustomCollectionView_Swift_CustomCollectionView_SwiftUITests
+@end
