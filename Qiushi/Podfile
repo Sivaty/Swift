@@ -14,6 +14,7 @@ target 'Qiushi' do
   pod 'KakaJSON'
   pod "Texture"
   pod 'YYText'
+  pod 'CocoaDebug', :configurations => ['Debug']
 
   target 'QiushiTests' do
     inherit! :search_paths
