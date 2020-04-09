@@ -12,6 +12,8 @@ import SwiftyJSON
 import MJRefresh
 import KakaJSON
 import Kingfisher
+//import <SystemConfiguration/CaptiveNetwork.h>
+import SystemConfiguration.CaptiveNetwork
 
 class HomeViewController: UIViewController {
     
@@ -41,6 +43,13 @@ class HomeViewController: UIViewController {
             self.requestData()
         })
         tableView.mj_header?.beginRefreshing()
+        
+        let oneView: UIView? = tableView
+        
+        if let view = oneView as? UITableView {
+            print("--- \(view.visibleCells)")
+        }
+        
     }
     
     func requestData() {
@@ -68,11 +77,36 @@ class HomeViewController: UIViewController {
     }
     */
 
+    func getWifiName() -> String? {
+        
+        let interfaces: CFArray! = CNCopySupportedInterfaces()
+        
+        if interfaces == nil { return nil }
+        
+        let if0: UnsafeRawPointer? = CFArrayGetValueAtIndex(interfaces, 0)
+        
+        if if0 == nil { return nil }
+        
+        let interfaceName: CFString = unsafeBitCast(if0!, to: CFString.self)
+        
+        let dictionary = CNCopyCurrentNetworkInfo(interfaceName) as NSDictionary?
+        
+        if dictionary == nil { return nil }
+        
+        return dictionary?[kCNNetworkInfoKeySSID as String] as? String
+    }
+    
 }
 
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alertController = UIAlertController(title: "hi", message: "123", preferredStyle: .alert)
+//        alertController.modalPresentationStyle = .fullScreen
+        self.present(alertController, animated: true, completion: nil)
     }
 }
 

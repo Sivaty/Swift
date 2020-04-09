@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'Qiushi' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -12,17 +12,5 @@ target 'Qiushi' do
   pod 'Kingfisher'
   pod 'MJRefresh'
   pod 'KakaJSON'
-  pod "Texture"
-  pod 'YYText'
-  pod 'CocoaDebug', :configurations => ['Debug']
-
-  target 'QiushiTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'QiushiUITests' do
-    # Pods for testing
-  end
 
 end

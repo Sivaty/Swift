@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
-struct Point {
+struct Point : Equatable {
     var x: Double, y: Double
     static func + (_ p1: Point, _ p2: Point) -> Point {
         Point(x: p1.x + p2.x, y: p1.y + p2.y)
@@ -23,6 +23,10 @@ struct Point {
     }
     static func += (_ p1: inout Point, _ p2: Point) {
         p1 = p1 + p2
+    }
+    
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.x == rhs.x && lhs.y == rhs.y
     }
 }
 
