@@ -49,7 +49,7 @@ class HomeViewController: UIViewController {
         if let view = oneView as? UITableView {
             print("--- \(view.visibleCells)")
         }
-        
+        //master test
     }
     
     func requestData() {
